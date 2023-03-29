@@ -1,11 +1,9 @@
 <script lang="ts">
-  import Counter from "./lib/Counter.svelte";
-  import Chat from "./lib/Chat.svelte";
+  // import Chat from "./lib/Chat.svelte";
+  import Search from "./lib/Search.svelte";
 </script>
 
-<main>
-  <Chat />
-</main>
-
+<main />
+<Search/>
 <style>
 </style>
