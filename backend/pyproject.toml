@@ -4,17 +4,17 @@ version = "0.1.0"
 description = ""
 authors = ["Gal Zafar <theycallmefachfach@gmail.com>"]
 readme = "README.md"
-packages = [{include = "chatbase_example"}]
+packages = [{ include = "chatbase_example" }]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.10"
 langchain = "^0.0.123"
 ipython = "^8.11.0"
 streamlit = "^1.20.0"
 mypy = "^1.1.1"
 fastapi = "^0.95.0"
 python-multipart = "^0.0.6"
-
+pytest = "^7.2.2"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
